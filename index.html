@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Petit+Formal+Script&family=Rubik+Distressed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Resposive Navbar</title>
+</head>
+<body>
+
+    <header>
+        <div class="header-row">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="header-left">
+                        <h3 class="logo">New Desing</h3>
+                    </div>
+                    <div class="header-center">
+                        <form  class="form-search">
+                            <input class="search-input" type="search" placeholder="Ne Aramıştınız?"><i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                            <div class="search-results">
+                                <div class="results">
+                                    <a href="#" class="result-item">
+                                        <img src="bg.jpg" class="search-thumb" alt="">
+                                        <div class="search-info">
+                                            <h4>Analogue Resin Strap</h4>
+                                            <span class="search-sku">Stok Kodu: PD0016</span>
+                                            <span class="search-rice">$108.00</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="result-item">
+                                        <img src="bg.jpg" class="search-thumb" alt="">
+                                        <div class="search-info">
+                                            <h4>Analogue Resin Strap</h4>
+                                            <span class="search-sku">Stok Kodu: PD0016</span>
+                                            <span class="search-rice">$108.00</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="header-right">
+                        <a href="#" id="login">
+                            <i class="fa-solid fa-user fa-2x"></i>
+                            <div>
+                                <span>Giriş Yap</span>
+                                <h5>Hesabım</h5>
+                            </div>
+                            <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                        </a>
+                        <div class="header-second">
+                            <div class="header-left1">
+                                <h4>Giriş Yap</h4>
+                                <form class="header-second-alt">
+                                    <div class="form-group">
+                                        <input type="text" id="username" placeholder="Kullanıcı Adı">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" id="password" placeholder="Şifre">
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit">Giriş Yap</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <hr>
+                            <div class="header-right1"> 
+                                <h4>Kayıt Ol</h4>
+                                <p>
+                                    Yeni kullanıcı? Bir hesap oluşturarak daha hızlı alışveriş yapabilir, bir siparişin durumundan haberdar olabilirsiniz...
+                                </p>
+                                <a href="#">Şimdi Üye Ol</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <input type="checkbox" name="" id="check">
+                <div class="nav-btn">
+                    <div class="nav-links">
+                        <ul>
+                            <li class="nav-link" style="--i: .6s">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="nav-link" style="--i: .85s">
+                                <a href="#">Menu<i class="fas fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li class="dropdown-link">
+                                            <a href="#">Link 1</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Link 2</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Link 1</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Link 2</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Link 3</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">More<i class="fas fa-caret-down"></i></a>
+                                                        <div class="dropdown second">
+                                                            <ul>
+                                                                <li class="dropdown-link">
+                                                                    <a href="#">Link 1</a>
+                                                                </li>
+                                                                <li class="dropdown-link">
+                                                                    <a href="#">Link 2</a>
+                                                                </li>
+                                                                <li class="dropdown-link">
+                                                                    <a href="#">Link 3</a>
+                                                                </li>
+                                                                <div class="arrow"></div>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Link 4</a>
+                                        </li>
+                                        <div class="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-link" style="--i: 1.1s">
+                                <a href="#">Services<i class="fas fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li class="dropdown-link">
+                                            <a href="#">Link 1</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Link 2</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Link 3<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Link 1</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Link 2</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Link 3</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">More<i class="fas fa-caret-down"></i></a>
+                                                        <div class="dropdown second">
+                                                            <ul>
+                                                                <li class="dropdown-link">
+                                                                    <a href="#">Link 1</a>
+                                                                </li>
+                                                                <li class="dropdown-link">
+                                                                    <a href="#">Link 2</a>
+                                                                </li>
+                                                                <li class="dropdown-link">
+                                                                    <a href="#">Link 3</a>
+                                                                </li>
+                                                                <div class="arrow"></div>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Link 4</a>
+                                        </li>
+                                        <div class="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-link" style="--i: 1.35s">
+                                <a href="#">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hamburger-menu-container">
+                    <div class="hamburger-menu">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
